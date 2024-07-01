@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👩‍💻</text></svg>"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Tech Goals</title>
+  </head>
+  <body>
+    <header>
+      <h1 data-testid="slackDisplayName">Dosu Roseline</h1>
+      <a
+        href="mailto:dosuroseline@gmail.com"
+        data-testid="slackEmail"
+        class="email"
+        >✉️ <span>dosuroseline@gmail.com</span></a
+      >
+    </header>
+
+    <main>
+      <div class="box">
+        <img
+          src="./img/profile-picture.png"
+          alt="Slack Profile Picture"
+          data-testid="slackProfilePicture"
+          class="profileImg"
+        />
+      </div>
+      <div class="goals">
+        <h2>My Tech Goals for the Next 2 Years</h2>
+        <ul>
+          <li>
+            Master web development, focusing on both frontend and backend
+            technologies.
+          </li>
+          <li>
+            Learn and implement machine learning and AI techniques in real-world
+            projects.
+          </li>
+          <li>
+            Contribute to open-source projects and build a strong portfolio.
+          </li>
+          <li>
+            Attend tech conferences and workshops to stay updated with the
+            latest trends and network with professionals.
+          </li>
+          <li>Achieve certifications in cloud computing and cybersecurity.</li>
+        </ul>
+
+        <div class="links">
+          <a href="https://hng.tech/learn" data-testid="hngLink" target="_blank"
+            >HNG Learn</a
+          >
+          <a
+            href="https://keyword.dog"
+            data-testid="keywordLink"
+            target="_blank"
+            >Keyword Dog</a
+          >
+          <a
+            href="https://scrapeanyweb.site"
+            data-testid="scrapeanywebLink"
+            target="_blank"
+            >Scrape Any Web</a
+          >
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p data-testid="currentTimeUTC">
+        ⏲️ Current Time in UTC: <span id="timeUTC"></span>
+      </p>
+      <p class="dash">|</p>
+      <p data-testid="currentDay">Current Day: <span id="currentDay"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
